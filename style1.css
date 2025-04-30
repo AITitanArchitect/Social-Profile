@@ -1,0 +1,63 @@
+body {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Inter', sans-serif;
+    background-color: hsl(0, 0%, 8%);
+    color: hsl(0, 0%, 100%);
+}
+
+.card {
+    border-radius: 12px;
+    background-color: hsl(0, 0%, 12%);
+    max-width: 350px;
+    width: 90%;
+    text-align: center;
+    padding: 2rem;
+
+}
+
+.avatar {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-top: 1rem;
+}
+
+h1 {
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin: 0;
+  }
+
+  
+  .location {
+    color: hsl(75, 94%, 57%);
+    font-weight: 600;
+    margin: 0.3rem 0 1rem;
+}
+
+.bio {
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 1.5rem;
+    color: hsl(0, 0%, 100%);
+  }
+
+.links a {
+    padding: 0.75rem;
+    border-radius: 8px;
+    background-color: hsl(0, 0%, 20%);
+    color: hsl(0, 0%, 100%);
+    font-weight: 600;
+    display: block;
+    text-decoration: none;
+    margin-bottom: 0.75rem;
+    transition: background-color 0.3s;
+}
+
+.links a:hover {
+    color: black;
+    background-color: hsl(75, 94%, 57%);
+}
